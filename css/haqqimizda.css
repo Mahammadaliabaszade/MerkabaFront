@@ -15,7 +15,7 @@ body {
 
 .head_top-panel {
     padding: 0.4em 0;
-    background-color: transparent;
+    background: #eef5fa;
 }
 
 ol,
@@ -43,15 +43,13 @@ ul {
 
 .head_log-register {
     display: flex;
-    box-pack: end;
     justify-content: flex-end;
-    box-align: center;
     align-items: center;
     padding-top: 5px;
 }
-
 .head_log-register a {
     font-size: 16px;
+    color: #000;
     font-weight: 700;
     transition: color 0.3s;
 }
@@ -76,29 +74,14 @@ a {
 
 .head-nav_menu li {
     padding: 0 0.3em;
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 
-.main-btn {
-    display: inline-block;
-    min-width: 174px;
-    height: 46px;
-    font-size: 1.375rem;
-    font-weight: 500;
-    line-height: 44px;
-    background-color: #ff944b;
-    border-radius: 10px;
-    padding: 0 1em;
+.head-nav_menu a {
     color: #fff;
-    text-align: center;
-    transition: background-color 0.3s;
-    white-space: nowrap;
-    z-index: 1;
-}
-
-.head_log-register a {
-    font-size: 16px;
-    color: #000;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 600;
     transition: color 0.3s;
 }
 
@@ -107,11 +90,6 @@ a {
     width: 100%;
 }
 
-.main-head_right-column {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .head_top-panel .left-column {
     display: flex;
@@ -124,36 +102,6 @@ a {
     font-weight: 700;
     color: #464748;
     transition: color 0.3s;
-}
-
-.main-head_right-column {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.head-nav_menu li {
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
-
-.head_log-register {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 5px;
-}
-
-.head-nav_menu a {
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-.head_top-panel {
-    padding: 0.4em 0;
-    background: #eef5fa;
 }
 
 .main-head {
@@ -216,7 +164,7 @@ a {
 }
 
 .footer-logo {
-    margin-bottom: 5.7em;
+    margin-bottom: 3em;
 }
 
 .footer-social_box {
