@@ -15,7 +15,7 @@ body {
 
 .head_top-panel {
     padding: 0.4em 0;
-    background: #eef5fa;
+    background: none;
 }
 
 ol,
@@ -47,6 +47,7 @@ ul {
     align-items: center;
     padding-top: 5px;
 }
+
 .head_log-register a {
     font-size: 16px;
     color: #000;
@@ -90,7 +91,6 @@ a {
     width: 100%;
 }
 
-
 .head_top-panel .left-column {
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +100,7 @@ a {
 .head_top-panel_menu a {
     font-size: 1.375rem;
     font-weight: 700;
-    color: #464748;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -118,7 +118,7 @@ a {
     background-size: cover;
     color: #a3a3a3;
     position: relative;
-    background-color: black;
+    background-color: none;
 }
 
 .wshipping-content-block {
